@@ -1,0 +1,13 @@
+# android_kernel_xiaomi_gucci_script
+
+
+
+
+BUILD SCRIPT FOR  COMPILING CUSTOM KERNEL BASED ON ARM32
+
+
+
+REDMI NOTE PRIME GUCCI BASED ON KITKAT 
+
+
+
