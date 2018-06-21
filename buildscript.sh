@@ -10,9 +10,9 @@ git clone https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/arm/
 
 #exporting path and cross compiler
 
-export PATH=$(pwd)/arm-eabi-4.8/bin:$PATH
+export PATH=$(pwd)/arm-eabi-4.9/bin:$PATH
 
-export CROSS_COMPILE=$(pwd)/arm-eabi-4.8/bin/arm-eabi-
+export CROSS_COMPILE=$(pwd)/arm-eabi-4.9/bin/arm-eabi-
 
 #creating an output directory
 
