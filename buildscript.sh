@@ -4,7 +4,9 @@ cd
 
 #Tool chain
 #git clone https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7
-git clone https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8
+/*git clone https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8*/
+
+git clone https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9
 
 #exporting path and cross compiler
 
@@ -18,11 +20,11 @@ mkdir out
 
 #cloning xiaomi offical kernel
 
-git clone https://github.com/MiCode/Xiaomi_Kernel_OpenSource.git -b gucci-kk-oss
+git clone https://github.com/pradeepvarma107/android_kernel_xiaomi_gucci.git -b cm-11.0
 
 #Changing directory to kernel directory
 
-cd Xiaomi_Kernel_OpenSource-gucci-kk-oss
+cd android_kernel_xiaomi_gucci
 
 #Compiling kernel
 
